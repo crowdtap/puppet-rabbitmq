@@ -18,6 +18,8 @@ Once installed, you can access the following variables in your environment, proj
 
 * BOXEN_RABBITMQ_PORT: the configured rabbitmq port
 * BOXEN_RABBITMQ_URL: the URL for rabbitmq, including localhost & port
+* BOXEN_RABBITMQ_MGMT_PORT: the configured rabbitmq management port
+* BOXEN_RABBITMQ_MGMT_URL: the URL for rabbitmq management, including localhost & port
 
 #### Ruby
 
