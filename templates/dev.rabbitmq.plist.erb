@@ -39,7 +39,7 @@
       <string><%= scope.lookupvar "rabbitmq::config::datadir" %></string>
 
       <key>RABBITMQ_ENABLED_PLUGINS_FILE</key>
-      <string><%= scope.lookupvar "rabbitmq::config::configdir/enabled_plugins" %></string>
+      <string><%= scope.lookupvar "rabbitmq::config::configdir" %>/enabled_plugins</string>
 
       <key>RABBITMQ_NODE_PORT</key>
       <string><%= scope.lookupvar "rabbitmq::config::port" %></string>
