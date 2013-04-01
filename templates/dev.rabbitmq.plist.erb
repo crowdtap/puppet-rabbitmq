@@ -26,17 +26,20 @@
       <key>PATH</key>
       <string><%= scope.lookupvar "boxen::config::home" %>/homebrew/sbin:<%= scope.lookupvar "boxen::config::home" %>/homebrew/bin:/usr/bin</string>
 
-      <key>CONFIG_FILE</key>
+      <key>RABBITMQ_CONFIG_FILE</key>
       <string><%= scope.lookupvar "rabbitmq::config::configdir" %>/rabbitmq</string>
 
-      <key>NODE_IP_ADDRESS</key>
+      <key>RABBITMQ_NODE_IP_ADDRESS</key>
       <string>127.0.0.1</string>
 
-      <key>NODENAME</key>
+      <key>RABBITMQ_NODENAME</key>
       <string>rabbit@localhost</string>
 
       <key>RABBITMQ_MNESIA_BASE</key>
       <string><%= scope.lookupvar "rabbitmq::config::datadir" %></string>
+
+      <key>RABBITMQ_ENABLED_PLUGINS_FILE</key>
+      <string><%= scope.lookupvar "rabbitmq::config::configdir/enabled_plugins" %></string>
 
       <key>RABBITMQ_NODE_PORT</key>
       <string><%= scope.lookupvar "rabbitmq::config::port" %></string>

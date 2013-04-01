@@ -1,3 +1,5 @@
-[
-  {rabbitmq_management, [ {listener, [{port, <%= scope.lookupvar('rabbitmq::config::mgmt_port') %>}]} ] }
-].
+[{rabbitmq_management,
+  [{listener,
+    [{port, <%= scope.lookupvar('rabbitmq::config::mgmt_port') %>}]
+  }]
+}].
