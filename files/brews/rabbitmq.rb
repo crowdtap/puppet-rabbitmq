@@ -2,10 +2,10 @@ require 'formula'
 
 class Rabbitmq < Formula
   homepage 'http://rabbitmq.org/'
-  url 'http://www.rabbitmq.com/releases/rabbitmq-server/v2.8.7/rabbitmq-server-generic-unix-2.8.7.tar.gz'
-  sha1 '16965e5c3486f6882df363064707777fc4cbbe2e'
+  url 'http://www.rabbitmq.com/releases/rabbitmq-server/v3.1.1/rabbitmq-server-generic-unix-3.1.1.tar.gz'
+  sha1 'e7781aea7b9cfd5c0206042b566c8a4fca775e41'
 
-  version '2.8.7-boxen1'
+  version '3.1.1-boxen1'
 
   depends_on 'erlang'
 
