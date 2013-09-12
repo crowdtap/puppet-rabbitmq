@@ -34,7 +34,7 @@ class rabbitmq {
   }
 
   package { 'boxen/brews/rabbitmq':
-    ensure => '2.8.7-boxen1',
+    ensure => '3.1.5-boxen1',
     notify => Service['dev.rabbitmq'],
   }
 
