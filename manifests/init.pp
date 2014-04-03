@@ -3,7 +3,15 @@
 # Usage:
 #
 #     include rabbitmq
-class rabbitmq {
+class rabbitmq (
+  $port      = undef,
+  $mgmt_port = undef,
+) {
+  validate_string(
+    $port,
+    $mgmt_port
+  )
+
   include homebrew
   include rabbitmq::config
 
