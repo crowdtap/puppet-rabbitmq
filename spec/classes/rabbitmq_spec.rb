@@ -35,7 +35,7 @@ end
 
     should contain_homebrew__formula('rabbitmq').with_before('Package[boxen/brews/rabbitmq]')
     should contain_package('boxen/brews/rabbitmq').with({
-      :ensure => '3.2.4-boxen1',
+      :ensure => '3.5.6',
       :notify => 'Service[dev.rabbitmq]'
     })
 
