@@ -12,6 +12,6 @@ class rabbitmq::config {
   $datadir        = "${boxen::config::datadir}/rabbitmq"
   $executable     = "/usr/local/sbin/rabbitmq-server"
   $logdir         = "${boxen::config::logdir}/rabbitmq"
-  $port           = 55672
-  $mgmt_port      = 15672
+  $port           = 15672 
+  $mgmt_port      = 65672 
 }
