@@ -24,7 +24,7 @@
     <key>EnvironmentVariables</key>
     <dict>
       <key>PATH</key>
-      <string><%= scope.lookupvar "boxen::config::home" %>/homebrew/sbin:<%= scope.lookupvar "boxen::config::home" %>/homebrew/bin:/usr/bin</string>
+      <string><%= scope.lookupvar "boxen::config::homebrewdir" %>/sbin:<%= scope.lookupvar "boxen::config::homebrewdir" %>/bin:/usr/bin</string>
 
       <key>RABBITMQ_CONFIG_FILE</key>
       <string><%= scope.lookupvar "rabbitmq::config::configdir" %>/rabbitmq</string>
