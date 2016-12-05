@@ -3,7 +3,7 @@ require 'formula'
 class Rabbitmq < Formula
   homepage 'http://rabbitmq.org/'
   url 'http://www.rabbitmq.com/releases/rabbitmq-server/v3.2.4/rabbitmq-server-generic-unix-3.2.4.tar.gz'
-  sha1 '40c4d98277f99c3eb5082940666e9079fcea0d1d'
+  sha256 '6e21e75d6a50a648f29dada920a31d3050a986b374edb805f8338754d7f74f8b'
 
   version '3.2.4-boxen1'
 
